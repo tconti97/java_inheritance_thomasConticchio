@@ -24,7 +24,6 @@ public class StudentImpl extends PersonBaseImpl implements Student
 	@Override
 	public String studiesFor() 
 	{
-		
 		return takenCourseTitle;
 	}
 	

@@ -17,11 +17,13 @@ public class TeacherImpl extends PersonBaseImpl implements Teacher
 		thoughtCourseTitle = _thoughtCourseTitle;
 	}
 	
+	@Override
 	public String teachesFor()
 	{
 		return thoughtCourseTitle;
 	}
 	
+	@Override
 	public String getDetails()
 	{
 		return "teacher";
